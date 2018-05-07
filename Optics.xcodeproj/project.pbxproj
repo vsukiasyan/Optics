@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		670CAC2020A01BEB0094EFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAC1F20A01BEB0094EFD6 /* AppDelegate.swift */; };
-		670CAC2220A01BEB0094EFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAC2120A01BEB0094EFD6 /* ViewController.swift */; };
+		670CAC2220A01BEB0094EFD6 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CAC2120A01BEB0094EFD6 /* CameraVC.swift */; };
 		670CAC2520A01BEB0094EFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670CAC2320A01BEB0094EFD6 /* Main.storyboard */; };
 		670CAC2720A01BEB0094EFD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 670CAC2620A01BEB0094EFD6 /* Assets.xcassets */; };
 		670CAC2A20A01BEB0094EFD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 670CAC2820A01BEB0094EFD6 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		670CAC1C20A01BEB0094EFD6 /* Optics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Optics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		670CAC1F20A01BEB0094EFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		670CAC2120A01BEB0094EFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		670CAC2120A01BEB0094EFD6 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		670CAC2420A01BEB0094EFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		670CAC2620A01BEB0094EFD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		670CAC2920A01BEB0094EFD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +97,11 @@
 		670CAC1E20A01BEB0094EFD6 /* Optics */ = {
 			isa = PBXGroup;
 			children = (
+				670CAC4F20A01D150094EFD6 /* Resources */,
+				670CAC4E20A01D110094EFD6 /* View */,
+				670CAC4D20A01D060094EFD6 /* Controller */,
 				670CAC1F20A01BEB0094EFD6 /* AppDelegate.swift */,
-				670CAC2120A01BEB0094EFD6 /* ViewController.swift */,
+				670CAC2120A01BEB0094EFD6 /* CameraVC.swift */,
 				670CAC2320A01BEB0094EFD6 /* Main.storyboard */,
 				670CAC2620A01BEB0094EFD6 /* Assets.xcassets */,
 				670CAC2820A01BEB0094EFD6 /* LaunchScreen.storyboard */,
@@ -123,6 +126,27 @@
 				670CAC4120A01BEB0094EFD6 /* Info.plist */,
 			);
 			path = OpticsUITests;
+			sourceTree = "<group>";
+		};
+		670CAC4D20A01D060094EFD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		670CAC4E20A01D110094EFD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		670CAC4F20A01D150094EFD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				670CAC2220A01BEB0094EFD6 /* ViewController.swift in Sources */,
+				670CAC2220A01BEB0094EFD6 /* CameraVC.swift in Sources */,
 				670CAC2020A01BEB0094EFD6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
