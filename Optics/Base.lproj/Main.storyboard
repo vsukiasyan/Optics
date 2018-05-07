@@ -76,6 +76,9 @@
                                 <state key="normal" title="FLASH OFF">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="flashBtnWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yFw-Zd-Da6"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -98,7 +101,7 @@
                         <outlet property="cameraView" destination="zeo-cC-00E" id="ZOs-EB-Zda"/>
                         <outlet property="captureImageView" destination="h67-lo-SZA" id="HkG-qs-M5u"/>
                         <outlet property="confidenceLbl" destination="Bk2-ga-M7n" id="q6W-kC-5Sw"/>
-                        <outlet property="flashBtn" destination="ovB-if-FiK" id="IRm-RA-PO0"/>
+                        <outlet property="flashBtn" destination="ovB-if-FiK" id="q3E-M4-gVP"/>
                         <outlet property="identificationLbl" destination="zcJ-lE-vqV" id="eOT-5Y-erK"/>
                         <outlet property="roundedLblView" destination="muJ-hF-spA" id="TzO-gl-GKo"/>
                     </connections>
