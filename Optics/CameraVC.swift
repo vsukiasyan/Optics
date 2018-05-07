@@ -9,6 +9,14 @@
 import UIKit
 
 class CameraVC: UIViewController {
+    
+    @IBOutlet weak var captureImageView: UIImageView!
+    @IBOutlet weak var flashBtn: RoundedShadowView!
+    @IBOutlet weak var identificationLbl: UILabel!
+    @IBOutlet weak var confidenceLbl: UILabel!
+    @IBOutlet weak var cameraView: UIView!
+    @IBOutlet weak var roundedLblView: RoundedShadowView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
