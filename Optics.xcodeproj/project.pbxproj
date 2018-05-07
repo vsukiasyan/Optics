@@ -17,6 +17,7 @@
 		67C88B9720A0217F00D734C0 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C88B9620A0217F00D734C0 /* RoundedShadowView.swift */; };
 		67C88B9920A022C200D734C0 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C88B9820A022C200D734C0 /* RoundedShadowButton.swift */; };
 		67C88B9B20A022F200D734C0 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C88B9A20A022F200D734C0 /* RoundedShadowImageView.swift */; };
+		67C88BA020A0FDAB00D734C0 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 67C88B9F20A0FDAB00D734C0 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,7 @@
 		67C88B9620A0217F00D734C0 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
 		67C88B9820A022C200D734C0 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		67C88B9A20A022F200D734C0 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
-		67C88B9E20A0F8D100D734C0 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		67C88B9F20A0FDAB00D734C0 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +156,7 @@
 		670CAC4F20A01D150094EFD6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67C88B9E20A0F8D100D734C0 /* SqueezeNet.mlmodel */,
+				67C88B9F20A0FDAB00D734C0 /* SqueezeNet.mlmodel */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -295,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				670CAC2220A01BEB0094EFD6 /* CameraVC.swift in Sources */,
+				67C88BA020A0FDAB00D734C0 /* SqueezeNet.mlmodel in Sources */,
 				670CAC2020A01BEB0094EFD6 /* AppDelegate.swift in Sources */,
 				67C88B9720A0217F00D734C0 /* RoundedShadowView.swift in Sources */,
 				67C88B9920A022C200D734C0 /* RoundedShadowButton.swift in Sources */,
